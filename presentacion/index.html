@@ -1,0 +1,338 @@
+<html>
+	<head>
+		<title>Menu Principal</title>
+		<meta content="Edher Padilla, Mauvis Brito, Luis Díaz" name="author">
+		<style type="text/css">
+		</style>
+		<script type="text/javascript" src="../presentacion/jquery.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$(".oculta").css("display", "none");
+			});
+		</script>
+		<script language="javascript">	
+			function Aparecer(opcion){
+				switch(opcion){
+					case 1:
+						$("#fond-idep").delay(10).fadeIn(10);
+						$("#fond-neg").delay(10).fadeIn(10);
+						$("#ven").delay(250).fadeIn(100);
+						$("#inic").delay(250).fadeIn(100);
+						$("#indp").delay(250).fadeIn(100);
+						$("#bnd").show(2500).fadeIn(100);
+						$("#tex-int").show(3000).fadeIn(100);
+						$("#bolv").delay(3300).fadeIn(1000);
+						$("#mird").delay(3600).fadeIn(1000);
+						$("#fir-bolv").delay(3800).fadeIn(1000);
+						$("#fir-mird").delay(4000).fadeIn(1000);
+						$("#bot").delay(4300).fadeIn(1000);
+						break;
+					case 2:
+						$("#bot1").delay(10).fadeIn(10);
+
+						
+						$("#til-gyp").show(500).fadeIn(100);
+						$("#fongris-gualesp").delay(1000).fadeIn(100);
+						$("#text-gyp").delay(1200).fadeIn(100);
+						break;
+					case 3:
+						$("#bot2").delay(10).fadeIn(10);
+						$("#imag-mir").show(700).fadeIn(1000);
+						
+						
+						
+						$("#fech-mir").delay(500).fadeIn(100);
+						$("#til-mir1").delay(700).fadeIn(100);
+						$("#tix-mird1").delay(1200).fadeIn(100);
+						$("#tix-mird2").delay(1700).fadeIn(100);
+						$("#lin-mir").delay(1500).fadeIn(100);
+						
+						
+						break;
+					case 4:
+						$("#bot3").delay(10).fadeIn(10);
+						
+						
+						$("#tex-titl").delay(500).fadeIn(100);	
+						$("#fond-tex").delay(1000).fadeIn(100);
+						$("#tex-19abr").delay(1100).fadeIn(100);
+						
+						break;
+					case 5:
+						
+						
+						$("#titl-5jul").delay(500).fadeIn(100);
+						$("#tex-5jul").delay(1100).fadeIn(100);	
+						$("#fond-5jul").delay(1000).fadeIn(100);
+						break;
+
+					case 6:
+						$("#tex-abr").delay(10).fadeIn(10);
+						$("#fond-abr").delay(10).fadeIn(10);
+						break;
+					
+					case 7:
+						$("#tex-evo1").delay(100).fadeIn(100);
+						break;
+						
+					case 8:
+						$("#tex-preg").delay(10).fadeIn(10);
+						$("#fond-preg").delay(10).fadeIn(10);
+						break;
+				}
+			}
+		</script>
+		<script language="javascript">	
+			function Desaparecer(opcion){
+				switch(opcion){
+					case 1:
+						$("#fond-idep").delay(10).fadeIn(10);
+							$("#bot1").show(500).fadeIn(1000);
+							$("#bot2").show(1500).fadeIn(1000);
+							$("#til-franc").show(1700).fadeIn(1000);
+							$("#fnd-til").show(1700).fadeIn(1000);
+							$("#fnd-mir").show(1500).fadeIn(1000);
+							$("#bot3").delay(1000).fadeIn(1000);
+							$("#bot4").delay(2000).fadeIn(1000);
+							$("#tex-evo").show(2500).fadeIn(1000);
+							$("#bot-entert").delay(2500).fadeIn(1000);
+							$("#bot-preg").delay(2500).fadeIn(1000);
+							$("#tit").show(2000).fadeIn(1000);
+						$("#fond-neg").delay(10).fadeOut(10);
+						$("#ven").delay(10).fadeOut(10);
+						$("#inic").delay(10).fadeOut(10);
+						$("#indp").delay(10).fadeOut(10);
+						$("#bnd").delay(10).fadeOut(10);
+						$("#tex-int").delay(10).fadeOut(10);
+						$("#bolv").delay(10).fadeOut(10);
+						$("#mird").delay(10).fadeOut(10);
+						$("#fir-bolv").delay(10).fadeOut(10);
+						$("#fir-mird").delay(10).fadeOut(10);
+						$("#bot").delay(10).fadeOut(10);
+						break;
+					case 2:
+						$("#tex-abr").delay(10).fadeOut(10);
+						$("#fond-abr").delay(10).fadeOut(10);
+						break;
+					case 3:
+						$("#til-gyp").delay(10).fadeOut(10);
+						$("#fongris-gualesp").delay(10).fadeOut(10);
+						$("#text-gyp").delay(10).fadeOut(10);
+						break;
+					case 4:						
+						
+						$("#fech-mir").delay(10).fadeOut(10);
+						$("#til-mir1").delay(10).fadeOut(10);
+						$("#tix-mird1").delay(10).fadeOut(10);
+						$("#tix-mird2").delay(10).fadeOut(10);
+						$("#lin-mir").delay(10).fadeOut(10);
+						
+						break;
+					case 5:
+						$("#tex-evo1").delay(10).fadeOut(10);
+						break;	
+					case 6:
+						$("#tex-titl").delay(10).fadeOut(10);
+						$("#fond-tex").delay(10).fadeOut(10);
+						$("#tex-19abr").delay(10).fadeOut(10);
+						break;
+					case 7:
+						$("#titl-5jul").delay(10).fadeOut(10);
+						$("#tex-5jul").delay(10).fadeOut(10);	
+						$("#fond-5jul").delay(10).fadeOut(10);
+						
+						break;
+					case 8:
+						$("#tex-preg").delay(10).fadeOut(10);
+						$("#fond-preg").delay(10).fadeOut(10);
+						break;
+				}
+			}
+		</script>
+	</head>
+
+	<body onload="Aparecer(1)">
+		<!--Intro-->
+		
+
+<img src="../imagenes/fondo-intro.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px;
+		overflow: hidden; visibility: visible; z-index: 0; display: none;" id="fond-idep" name="fond-idep" alt="fond-idep">
+
+<img src="../imagenes/fondo-neg-intro.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px;
+		overflow: hidden; visibility: visible; z-index: 0; display: none;" id="fond-neg" name="fond-neg" alt="fond-neg">
+
+<marquee behavior="scroll" loop="1" scrolldelay="1" direction="up" style="border: 0px solid; position: absolute; top: -5px; left: 48px; width: 295px; height: 173px;
+			overflow: hidden; visibility: visible;z-index: 2;"><img alt="ven" src="../imagenes/venezuela-intro.png"  class="oculta" id="ven" alt="ven"></marquee>
+
+
+
+
+	<marquee behavior="scroll" loop="1" scrolldelay="82" direction="up" style="border: 0px solid; position: absolute; top: -2px; left: 320px; width: 343px; height: 136px;
+			overflow: hidden; visibility: visible;z-index: 2;"><img src="../imagenes/inicio-intro.png" class="oculta" id="inic" alt="inic"></marquee>
+
+
+<marquee behavior="scroll" loop="1" scrolldelay="1" direction="up" style="border: 0px solid; position: absolute; top: 0px; left: 640px; width: 361px; height: 180px;
+			overflow: hidden; visibility: visible;z-index: 5;"><img alt="titulo" src="../imagenes/independ-intro.png" class="oculta" id="indp" alt="indp"></marquee>
+
+
+
+	<img style="border: 0px solid; position: absolute; top: 0px; left:90px; width: 883px; height: 172px;
+			overflow: hidden; visibility: visible; z-index: 1;" src="../imagenes/bandera-intro.png" class="oculta" id="bnd" alt="bnd">
+
+	<img style="border: 0px solid; position: absolute; top: 230px; left: 242px; width: 348px; height: 334px;
+			overflow: hidden; visibility: visible; z-index: 5;" alt="titulo" src="../imagenes/bolivar-intro.png" class="oculta" id="bolv" alt="bolv">
+
+<img alt="titulo" src="../imagenes/text-intro.png" style="border: 0px solid; position: absolute; top: 130px; left: 170px; width: 654px; height: 142px;
+			overflow: hidden; visibility: visible; z-index: 5;"class="oculta" id="tex-int" alt="tex-int">
+
+	<img style="border: 0px solid; position: absolute; top: 236px; left: 550px; width: 230px; height: 289px;
+			overflow: hidden; visibility: visible; z-index: 1;" src="../imagenes/miranda-intro.png" class="oculta" id="mird" alt="mird">
+
+	<img style="border: 0px solid; position: absolute; top: 290px; left: 108px; width: 169px; height: 125px;
+			overflow: hidden; visibility: visible; z-index: 1;" src="../imagenes/firma-simon-bolivar.png" class="oculta" id="fir-bolv" alt="fir-bolv">
+
+
+	<img style="border: 0px solid; position: absolute; top: 344px; left: 708px; width: 189px; height: 56px;
+			overflow: hidden; visibility: visible; z-index: 1;" src="../imagenes/firma1.png" class="oculta" id="fir-mird" alt="fir-mird">
+
+
+
+
+<a href="#">
+	<img style="border: 0px solid; position: absolute; top: 458px; left: 858px; width: 120px; height: 110px;
+			overflow: hidden; visibility: visible; z-index: 6;" src="../imagenes/pergamino.png" class="oculta" id="bot" alt="bot" onclick="Desaparecer(1)" onmouseover="(src='../imagenes/pergamino-b.png')" onmouseout="(src='../imagenes/pergamino.png')"
+		></a>
+		
+
+		<!-- infografia -->
+
+<img style="border: 0px solid; position: absolute; top: 0px; left: 444px; width: 587px; height: 108px;
+			overflow: hidden; visibility: visible; z-index: 8;" src="../imagenes/tex-intro.png" class="oculta" id="tit" alt="tit">
+
+		<!-- Bloque gual y espana -->
+<a href="#">
+	<img style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 312px; height: 214px;
+			overflow: hidden; visibility: visible; z-index: 18;" src="../imagenes/imag-gual-espana.png" class="oculta" id="bot1" alt="bot" title="Manuel Gual fue militar y pol&iacute;tico venezolano y Jos&eacute; M. Espa&ntilde;a fue militar venezolano, ambos  nacidos en La Guaira." onmouseover="(src='../imagenes/imag-gual-espana.png'),Aparecer(2)" onmouseout="(src='../imagenes/imag-gual-espana.png'),Desaparecer(3)"
+		></a>
+
+
+<img style="border: 0px solid; position: absolute; top: 36px; left: 174px; width: 284px; height: 158px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/fond-text-gual-y-espana.png" class="oculta" id="fongris-gualesp" alt="fongris-gualesp">
+
+<img style="border: 0px solid; position: absolute; top: 4px; left: 286px; width: 112px; height: 34px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/titulo-text-1797.png" class="oculta" id="til-gyp" alt="til-gyp">
+
+<img style="border: 0px solid; position: absolute; top: 36px; left: 294px; width: 156px; height: 159px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/text-gual-y-espana.png" class="oculta" id="text-gyp" alt="til-gyp">
+			
+			
+			<!-- Bloque francisco de miranda -->
+
+			
+<a href="#">
+		<img style="border: 0px solid; position: absolute; top: 240px; left: 0px; width: 162px; height: 271px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/img-fransc-mirnd.png"  title="Francisco de Miranda, fue un pol&iacute;tico, militar, diplom&aacute;tico, escritor, humanista e ide&oacute;logo venezolano." class="oculta" id="bot2" alt="bot"  onmouseover="(src='../imagenes/img-fransc-mirnd.png'),Aparecer(3)" onmouseout="(src='../imagenes/img-fransc-mirnd.png'),Desaparecer(4)"
+		></a>
+		
+		
+		<img style="border: 0px solid; position: absolute; top: 206px; left: 14px; width: 242px; height: 86px;
+			overflow: hidden; visibility: visible; z-index: 16;" src="../imagenes/titul-franc-1806.png" class="oculta" id="til-franc" alt="fongris-gualesp">
+
+		<img style="border: 0px solid; position: absolute; top: 206px; left: 0px; width: 563px; height: 105px;
+			overflow: hidden; visibility: visible; z-index: 15;" src="../imagenes/fond-tit-franc.png" class="oculta" id="fnd-til" alt="fnd-til">
+
+		<img style="border: 0px solid; position: absolute; top: 240px; left: 0px; width: 205px; height: 296px;
+			overflow: hidden; visibility: visible; z-index: 14;" src="../imagenes/fondo-mird.png" class="oculta" id="fnd-mir" alt="til-gyp">
+			
+		<img style="border: 0px solid; position: absolute; top: 250px; left: 108px; width: 176px; height: 73px;
+			overflow: hidden; visibility: visible; z-index: 16;" src="../imagenes/titul-franc-1806-3.png" class="oculta" id="fech-mir" alt="til-gyp">
+			
+		<img style="border: 0px solid; position: absolute; top: 256px; left: 258px; width: 300px; height: 52px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/titul-franc-1806-2.png" class="oculta" id="til-mir1" alt="til-mir1">
+		
+		<img style="border: 0px solid; position: absolute; top: 308px; left: 162px; width: 395px; height: 105px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/tex-fransc-mirnd-1.png" class="oculta" id="tix-mird1" alt="tix-mird1">
+
+		<img style="border: 0px solid; position: absolute; top: 408px; left: 162px; width: 399px; height: 12px;
+			overflow: hidden; visibility: visible; z-index: 13;" src="../imagenes/barra-frsnc-mir.png" class="oculta" id="lin-mir" alt="lin-mir">
+		
+		<img style="border: 0px solid; position: absolute; top: 416px; left: 160px; width: 400px; height: 83px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/tex-fransc-mirnd-2.png" class="oculta" id="tix-mird2" alt="tix-mird2">
+
+<!-- Evolución de las Banderas de Venezuela -->
+		<img style="border: 0px solid; position: absolute; top: 505px; left: 0px; width: 237px; height: 65px;
+			overflow: hidden; visibility: visible; z-index: 18;" src="../imagenes/text-evolu-band.png" class="oculta" id="tex-evo" alt="tex-evo" onclick="Desaparecer(5)"onmouseover="(src='../imagenes/text-evolu-band.png'),Aparecer(7)" onmouseout="(src='../imagenes/text-evolu-band.png')">
+
+	<a href="../presentacion/banderas.html">
+
+		<img style="border: 0px solid; position: absolute; top: 507px; left: 236px; width: 252px; height: 59px;
+			overflow: hidden; visibility: visible; z-index: 18;" src="../imagenes/img-evolu-band2.png" class="oculta" id="tex-evo1" alt="tex-evo1"
+onmouseover="(src='../imagenes/img-evolu-band.png')" onmouseout="(src='../imagenes/img-evolu-band2.png')"></a>
+
+<!-- Bloque 19 de abril -->
+		
+	<a href="#">
+		<img style="border: 0px solid; position: absolute; top: 128px; left: 526px; width: 311px; height: 204px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/imag-19-abr.png" class="oculta" id="bot3" alt="bot3"  onmouseover="(src='../imagenes/imag-19-abr.png'),Aparecer(4)" onmouseout="(src='../imagenes/imag-19-abr.png'),Desaparecer(6)"></a>
+
+		<img style="border: 0px solid; position: absolute; top: 108px; left: 830px; width: 179px; height: 64px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/titul-19-abril.png" class="oculta" id="tex-titl" alt="tex-titl">
+		
+		<img style="border: 0px solid; position: absolute; top: 162px; left: 774px; width: 255px; height: 149px;
+			overflow: hidden; visibility: visible; z-index: 16;" src="../imagenes/fond-tex-abril.png" class="oculta" id="fond-tex" alt="fond-tex">
+		
+		<img style="border: 0px solid; position: absolute; top: 166px; left: 823px; width: 204px; height: 144px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/text-19-abril.png" class="oculta" id="tex-19abr" alt="tex-19abr">
+
+<!-- Bloque 5 de julio -->
+
+<a href="#">
+	<img style="border: 0px solid; position: absolute; top: 316px; left: 550px; width: 294px; height: 204;
+			overflow: hidden; visibility: visible; z-index: 18;" src="../imagenes/imag-5-jul.png" class="oculta" id="bot4" alt="bot" onmouseover="(src='../imagenes/imag-5-jul.png'),Aparecer(5)" onmouseout="(src='../imagenes/imag-5-jul.png'),Desaparecer(7)"
+		></a>
+	
+
+		<img style="border: 0px solid; position: absolute; top: 306px; left: 830px; width: 210px; height: 88px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/titul-5-julio.png" class="oculta" id="titl-5jul" alt="titl-5jul">
+
+		<img style="border: 0px solid; position: absolute; top: 390px; left: 755px; width: 272px; height: 122px;
+			overflow: hidden; visibility: visible; z-index: 16;" src="../imagenes/fond-tex-5-julio.png" class="oculta" id="fond-5jul" alt="fond-5jul">
+		
+		<img style="border: 0px solid; position: absolute; top: 396px; left: 830px; width: 192px; height: 114px;
+			overflow: hidden; visibility: visible; z-index: 17;" src="../imagenes/text-5-julio.png" class="oculta" id="tex-5jul" alt="tex-5jul">
+
+<!-- Enterate -->
+
+<a href="#">
+
+<img style="border: 0px solid; position: absolute; top:198px; left: 252px; width:83px; height: 56px;
+			overflow: hidden; visibility: visible; z-index: 21; display: none;"name="preg-generd" id="bot-entert" alt="" src="../imagenes/bot-entrt.png" class="oculta" title="Enterate"
+			onmouseover="(src='../imagenes/bot-entrt-2.png'),Aparecer(6)" onmouseout="(src='../imagenes/bot-entrt.png'), Desaparecer(2)"
+		></a>
+
+
+		<img style="border: 0px solid; position: absolute; top: 198px; left: 336px; width: 205px; height: 56px;
+			overflow: hidden; visibility: visible; z-index: 6;" src="../imagenes/txt-entrt.png" class="oculta" id="tex-abr" alt="tex-abr">
+
+		<img style="border: 0px solid; position: absolute; top: 198px; left: 290px; width: 318px; height: 57px;
+			overflow: hidden; visibility: visible; z-index: 5;" src="../imagenes/fondo-entert.png" class="oculta" id="fond-abr" alt="fond-abr">
+			
+<!-- Pregunta -->
+
+<a href="#">
+
+<img style="border: 0px solid; position: absolute; top:514px; left: 498px; width:83px; height: 56px;
+			overflow: hidden; visibility: visible; z-index: 21; display: none;"name="preg-generd" id="bot-preg" alt="bot-preg" src="../imagenes/bot-pregnt.png" class="oculta" title="Pregunta"
+			onmouseover="(src='../imagenes/bot-pregnt-2.png'),Aparecer(8)" onmouseout="(src='../imagenes/bot-pregnt.png'), Desaparecer(8)"
+		></a>
+
+
+		<img style="border: 0px solid; position: absolute; top: 524px; left: 580px; width: 225px; height: 38px;
+			overflow: hidden; visibility: visible; z-index: 6;" src="../imagenes/txt-pregnt.png" class="oculta" id="tex-preg" alt="tex-abr">
+
+		<img style="border: 0px solid; position: absolute; top: 524px; left: 536px; width: 279px; height: 44px;
+			overflow: hidden; visibility: visible; z-index: 5;" src="../imagenes/fond-pregnt.png" class="oculta" id="fond-preg" alt="fond-abr">
+
+</body>
+</html>

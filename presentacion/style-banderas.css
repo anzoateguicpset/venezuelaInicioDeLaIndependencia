@@ -1,0 +1,31 @@
+*								{ margin: 0; padding: 0; }
+body							{ font-family: "Lucida Grande", Arial, Sans-Serif; background: white; }
+
+a								{ text-decoration: none; outline: none; }
+a img							{ border: none; }
+
+h2								{ font-family: Georgia, Serif; font-size: 36px; text-align: center; 
+								  font-weight: normal; }
+
+#page-wrap						{ background: white; width: 1024px; margin: 0; 
+								  padding: 0px 0; color: red;  }
+
+#slider							{ background: white url(../imagenes/banderas/fondo-banderas.png); height: 572px; overflow: hidden;
+								  position: relative; margin: 0px 0; }
+								  
+								  
+                                /* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */								  
+#mover							{ width: 2880px; position: relative; }
+
+.slide							{ padding: 40px 80px; width: 900px; float: left; position: relative; }
+
+.slide h1						{ font-family: Helvetica, DejaVu-Sans; font-size: 30px; letter-spacing: 1px;
+								  color: black; position: absolute; top: 158px; left: 58px;}
+								  
+.slide p							{ color: #000000; font-family: Helvetica, DejaVu-Sans; font-size: 28px; line-height: 30px; 
+								width: 400px;position: absolute; top: 176px; left: 50px; }
+								
+.slide img						{ position: absolute; top: 134px; left: 550px; }
+#slider-stopper					{ position: absolute; top: 397px;  right: 143px; background: #F4A460; left: 800px; color: black;
+								  padding: 1px 8px; font-size: 14px; text-transform: uppercase; z-index: 1000; }
